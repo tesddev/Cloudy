@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82EC78182963706C001E8AAB /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC78172963706C001E8AAB /* DayViewModel.swift */; };
 		CC4AF182246E83960013D68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AF181246E83960013D68C /* AppDelegate.swift */; };
 		CC4AF184246E83960013D68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AF183246E83960013D68C /* SceneDelegate.swift */; };
 		CC4AF189246E83960013D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AF187246E83960013D68C /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82EC78172963706C001E8AAB /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		CC4AF17E246E83960013D68C /* Cloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4AF181246E83960013D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4AF183246E83960013D68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82EC781629637037001E8AAB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EC78172963706C001E8AAB /* DayViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		CC4AF175246E83960013D68C = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 				CC4AF19D246E84A20013D68C /* DayViewController.swift */,
 				CC4AF19C246E84A20013D68C /* WeekViewController.swift */,
 				CC4AF19B246E84A20013D68C /* WeatherViewController.swift */,
+				82EC781629637037001E8AAB /* View Models */,
 				CC4AF19E246E84A20013D68C /* Table View Cells */,
 			);
 			path = "Weather View Controllers";
@@ -377,6 +388,7 @@
 			files = (
 				CC4AF182246E83960013D68C /* AppDelegate.swift in Sources */,
 				CC4AF1B1246E84A20013D68C /* DayViewController.swift in Sources */,
+				82EC78182963706C001E8AAB /* DayViewModel.swift in Sources */,
 				CC4AF1CD246E84CC0013D68C /* Location.swift in Sources */,
 				CC4AF1D6246E94EC0013D68C /* TimeNotation.swift in Sources */,
 				CC4AF1B8246E84A20013D68C /* SettingsTableViewCell.swift in Sources */,
