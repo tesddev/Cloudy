@@ -22,7 +22,7 @@ struct DayViewModel {
         let dateFormatter = DateFormatter()
 
         // Configure Date Formatter
-        dateFormatter.dateFormat = ""
+        dateFormatter.dateFormat = UserDefaults.timeNotation.dateFormat
 
         return dateFormatter.string(from: weatherData.time)
     }
