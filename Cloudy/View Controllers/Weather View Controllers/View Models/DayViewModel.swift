@@ -26,4 +26,10 @@ struct DayViewModel {
 
         return dateFormatter.string(from: weatherData.time)
     }
+    
+    var summary: String {
+        weatherData.summary
+    }
+    
+    
 }
