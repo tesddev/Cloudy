@@ -16,4 +16,14 @@ struct DayViewModel {
         dateFormatter.dateFormat = "EEE, MMMM d"
         return dateFormatter.string(from: weatherData.time)
     }
+    
+    var time: String {
+        // Initialize Date Formatter
+        let dateFormatter = DateFormatter()
+
+        // Configure Date Formatter
+        dateFormatter.dateFormat = ""
+
+        return dateFormatter.string(from: weatherData.time)
+    }
 }
