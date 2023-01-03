@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82EC78182963706C001E8AAB /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC78172963706C001E8AAB /* DayViewModel.swift */; };
+		82EC781A29643839001E8AAB /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC781929643839001E8AAB /* UIImage.swift */; };
 		CC4AF182246E83960013D68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AF181246E83960013D68C /* AppDelegate.swift */; };
 		CC4AF184246E83960013D68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AF183246E83960013D68C /* SceneDelegate.swift */; };
 		CC4AF189246E83960013D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AF187246E83960013D68C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		82EC78172963706C001E8AAB /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
+		82EC781929643839001E8AAB /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		CC4AF17E246E83960013D68C /* Cloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4AF181246E83960013D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4AF183246E83960013D68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			children = (
 				CC4AF1BF246E84B50013D68C /* Conversions.swift */,
 				CC4AF1C0246E84B50013D68C /* UserDefaults.swift */,
+				82EC781929643839001E8AAB /* UIImage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				CC4AF1C1246E84B50013D68C /* Conversions.swift in Sources */,
 				CC4AF1C5246E84BE0013D68C /* DataManager.swift in Sources */,
 				CC4AF1B3246E84A20013D68C /* LocationViewModel.swift in Sources */,
+				82EC781A29643839001E8AAB /* UIImage.swift in Sources */,
 				CC4AF1BD246E84AA0013D68C /* Configuration.swift in Sources */,
 				CC4AF1B7246E84A20013D68C /* AddLocationViewController.swift in Sources */,
 				CC4AF1B0246E84A20013D68C /* WeekViewController.swift in Sources */,
