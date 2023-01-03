@@ -6,7 +6,7 @@
 //  Copyright © 2023 Cocoacasts. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct DayViewModel {
     let weatherData: WeatherData
@@ -51,5 +51,9 @@ struct DayViewModel {
         case .metric:
             return String(format: "%.f KPH", windSpeed.toKPH)
         }
+    }
+    
+    var image: UIImage? {
+        UIImage.imageForIcon(with: weatherData.icon)
     }
 }
