@@ -41,4 +41,15 @@ struct DayViewModel {
             return String(format: "%.1f °C", temperature.toCelcius)
         }
     }
+    
+    var windSpeed: String {
+        let windSpeed = weatherData.windSpeed
+
+        switch UserDefaults.unitsNotation {
+        case .imperial:
+            return String(format: "%.f MPH", windSpeed)
+        case .metric:
+            return String(format: "%.f KPH", windSpeed.toKPH)
+        }
+    }
 }
