@@ -31,5 +31,14 @@ struct DayViewModel {
         weatherData.summary
     }
     
-    
+    var temperature: String {
+        let temperature = weatherData.temperature
+        
+        switch UserDefaults.temperatureNotation {
+        case .fahrenheit:
+            return String(format: "%.1f °F", temperature)
+        case .celsius:
+            return String(format: "%.1f °C", temperature.toCelcius)
+        }
+    }
 }
